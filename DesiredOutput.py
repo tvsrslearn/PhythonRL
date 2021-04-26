@@ -3,6 +3,7 @@ def TriangleOutput(n):
         print(' '*(n-i+1), '*'*(2*i+1))
 
 
+#Reversing can be done easily using num[::-1]
 def CheckPalindrome(num):
     reversedNum = num[::-1]
     if reversedNum == num:
